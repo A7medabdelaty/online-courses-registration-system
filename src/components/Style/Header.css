@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap");
+.heading {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+.heading span {
+    font-size: 2rem;
+    color: #44bb6a;
+    text-transform: uppercase;
+  }
+  
+.heading h3 {
+    padding-top: 1rem;
+    font-size: 3rem;
+    color: #263238;
+    text-transform: uppercase;
+  }

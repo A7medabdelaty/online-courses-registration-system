@@ -1,0 +1,179 @@
+
+section {
+  min-height: 100vh;
+  padding: 1rem 7%;
+  padding-top: 6rem;
+}
+
+.heading {
+  color: #444;
+  padding: 1rem;
+  font-size: 4rem;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 1.5rem 7%;
+  background: var(--gradient);
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+
+header .logo {
+  color: #fff;
+  margin-right: 500px;
+  font-size: 2.5rem;
+}
+
+header .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+header .navbar ul li {
+  margin: 0 1rem;
+}
+
+header .navbar ul li a {
+  font-size: 2rem;
+  color: #fff;
+}
+
+header .navbar a.active,
+header .navbar a:hover {
+  color: #444;
+}
+
+header #login {
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+header #login:hover {
+  color: #444;
+}
+
+header #menu {
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  background:url(../Images/home-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 6rem;
+  color: #666;
+}
+
+.home p {
+  font-size: 1.9rem;
+  color: #999;
+  padding: 1rem 0;
+  width: 70rem;
+}
+
+.home .shape {
+  position: absolute;
+  bottom: -0.2rem;
+  left: 0;
+  height: 15rem;
+  width: 100%;
+  background:url(../Images/shape.png);
+  background-size: cover;
+  block-size: 100rem 15rem;
+  filter: drop-shadow(0 -0.1rem 0.1rem rgba(0, 0, 0, 0.2));
+  animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: 0rem;
+  }
+
+  100% {
+    background-position-x: 100rem;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  header #menu {
+    display: block;
+  }
+  header .navbar {
+    position: fixed;
+    top: -120%;
+    left: 0;
+    width: 100%;
+    background: #444;
+  }
+  header .navbar ul {
+    flex-flow: column;
+    padding: 2rem 0;
+  }
+  header .navbar ul li {
+    margin: 1.5rem 0;
+    text-align: center;
+    width: 100%;
+  }
+  header .navbar ul li a {
+    font-size: 2.5rem;
+    display: block;
+  }
+  header .navbar a.active:hover,
+  header .navbar a:hover {
+    color: #75a5bd;
+  }
+  .fa-times {
+    transform: rotate(180deg);
+  }
+  header .navbar.nav-toggle {
+    top: 6.4rem;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+
+  .contact .row form .box {
+    width: 100%;
+  }
+}
+
+.navigation .container a , .navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+
+.image-row img{
+  height: 170px;
+  margin-left: 25px;
+}

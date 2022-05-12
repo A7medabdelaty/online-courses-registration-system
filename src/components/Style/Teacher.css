@@ -1,0 +1,29 @@
+.teacher {
+  text-align: center;
+  background: url(../Images/teacher.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 700px;
+  width: 700px;
+}
+
+.teacher {
+  width: 100%;
+}
+
+.teacher .content {
+  font-size: 1.8rem;
+  color: white;
+  width: 65rem;
+  margin: 30vh auto;
+}
+
+.heading {
+    color: white;
+  padding-bottom: 15px;
+}
+
+.teacher div {
+  text-align: center;
+  font-size: large;
+}
