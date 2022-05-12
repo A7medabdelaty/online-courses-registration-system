@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/online-courses-registration-system/static/css/main.0eb06c57.css",
+    "main.js": "/online-courses-registration-system/static/js/main.0da1b047.js",
+    "static/js/787.cc710150.chunk.js": "/online-courses-registration-system/static/js/787.cc710150.chunk.js",
+    "static/media/Learning-bro.png": "/online-courses-registration-system/static/media/Learning-bro.fc6014688076e158c9eb.png",
+    "static/media/home-bg.jpg": "/online-courses-registration-system/static/media/home-bg.3eb354006832e0d3ea78.jpg",
+    "static/media/404 error.png": "/online-courses-registration-system/static/media/404 error.a4dad314b30562a9e8e0.png",
+    "static/media/Delivery-rafiki.png": "/online-courses-registration-system/static/media/Delivery-rafiki.00d2b40ed20f932f5a63.png",
+    "static/media/teacher.jpg": "/online-courses-registration-system/static/media/teacher.56a9ee5ae1313e03b634.jpg",
+    "static/media/shape.png": "/online-courses-registration-system/static/media/shape.168349a343bc11341417.png",
+    "static/media/contact-img.png": "/online-courses-registration-system/static/media/contact-img.033c62d4450985a466e3.png",
+    "static/media/course-6.svg": "/online-courses-registration-system/static/media/course-6.695c381231c3e0bc26d16497f8eee266.svg",
+    "static/media/course-2.svg": "/online-courses-registration-system/static/media/course-2.512d0aab8db024f5dc2508e0bf5384ce.svg",
+    "static/media/course-1.svg": "/online-courses-registration-system/static/media/course-1.f16447d50ec314d93b621508683eeff8.svg",
+    "static/media/course-5.svg": "/online-courses-registration-system/static/media/course-5.d18955c5d4c5373fb411a15b81d8b902.svg",
+    "static/media/course-3.svg": "/online-courses-registration-system/static/media/course-3.4003e4bf1615b88b20308bbbe3536213.svg",
+    "static/media/course-4.svg": "/online-courses-registration-system/static/media/course-4.f722505d9bb3c0116403cf2231d94242.svg",
+    "static/media/download.jfif3.jfif": "/online-courses-registration-system/static/media/download.jfif3.a8b9e041d70158329f44.jfif",
+    "static/media/download.png1.png": "/online-courses-registration-system/static/media/download.png1.00624e410be0697f7b2a.png",
+    "static/media/download.jfif1.jfif": "/online-courses-registration-system/static/media/download.jfif1.4e48384afc70d11e6859.jfif",
+    "static/media/download.jfif2.jfif": "/online-courses-registration-system/static/media/download.jfif2.1737b27f6ba03941b1c9.jfif",
+    "static/media/download.jfif": "/online-courses-registration-system/static/media/download.6e099e17cac3a38f6e24.jfif",
+    "index.html": "/online-courses-registration-system/index.html",
+    "main.0eb06c57.css.map": "/online-courses-registration-system/static/css/main.0eb06c57.css.map",
+    "main.0da1b047.js.map": "/online-courses-registration-system/static/js/main.0da1b047.js.map",
+    "787.cc710150.chunk.js.map": "/online-courses-registration-system/static/js/787.cc710150.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0eb06c57.css",
+    "static/js/main.0da1b047.js"
+  ]
+}
